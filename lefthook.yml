@@ -1,0 +1,21 @@
+pre-commit:
+  parallel: true
+
+  commands:
+    check:lint:
+      glob: "*.{ts,tsx,json,css,html,gql}"
+      run: pnpm check:lint {staged_files}
+
+    check:type:
+      run: pnpm check:type
+
+pre-push:
+  parallel: true
+
+  commands:
+    check:lint:
+      glob: "*.{ts,tsx,json,css,html,gql}"
+      run: pnpm check:lint
+
+    check:type:
+      run: pnpm check:type
