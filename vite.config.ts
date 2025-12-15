@@ -10,7 +10,7 @@ export default defineConfig({
     tanstackRouter({
       generatedRouteTree: "./src/app/tanstack-router/route-tree.gen.ts",
       indexToken: "page",
-      routesDirectory: "./src/app/routes",
+      routesDirectory: "./src/routes",
       routeToken: "layout",
     }),
     react(),

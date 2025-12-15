@@ -8,10 +8,10 @@
 // You should NOT make any changes in this file as it will be overwritten.
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
-import { Route as rootRouteImport } from './../routes/__root'
-import { Route as PlaygroundLayoutRouteImport } from './../routes/playground/layout'
-import { Route as PageRouteImport } from './../routes/page'
-import { Route as PlaygroundPageRouteImport } from './../routes/playground/page'
+import { Route as rootRouteImport } from './../../routes/__root'
+import { Route as PlaygroundLayoutRouteImport } from './../../routes/playground/layout'
+import { Route as PageRouteImport } from './../../routes/page'
+import { Route as PlaygroundPageRouteImport } from './../../routes/playground/page'
 
 const PlaygroundLayoutRoute = PlaygroundLayoutRouteImport.update({
   id: '/playground',
